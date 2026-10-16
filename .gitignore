@@ -1,0 +1,21 @@
+# Credenciales de Firebase (NUNCA subir)
+credenciales/
+*firebase*key*.json
+*-firebase-adminsdk-*.json
+.env
+
+# Artefactos generados
+data/salida/*
+!data/salida/.gitkeep
+modelos/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Entornos / IDE
+.venv/
+venv/
+.vscode/
+.idea/

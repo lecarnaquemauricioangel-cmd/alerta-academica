@@ -1,0 +1,14 @@
+name: alerta_academica
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn>=1.4   # requerido para root_mean_squared_error
+  - matplotlib
+  - jupyterlab
+  - pip
+  - pip:
+      - torch
+      - firebase-admin
